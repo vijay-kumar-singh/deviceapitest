@@ -29,7 +29,6 @@ if (!('onlightlevel' in window)) {
     lightStateValue.innerHTML = event.value;
   });
 }
-//deviceproximity check
 var box = document.getElementById('box');
 function onDeviceProximityChanged(event) {
   document.getElementById('deviceValue').innerHTML = event.value + ' cm (' + event.min + '-' + event.max + ' cm range)';
